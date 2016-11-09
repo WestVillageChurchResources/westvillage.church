@@ -1,0 +1,288 @@
+# Copyright (C) 2016 ThemeBright
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Restful 1.1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2016-01-25 06:35:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+
+#: 404.php:9
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid "Sorry, the page or file you tried to access was not found."
+msgstr ""
+
+#: archive-ctc_event.php:88 archive-ctc_location.php:71
+#: archive-ctc_person.php:59 archive-ctc_sermon.php:54 archive.php:34
+#: home.php:45 index.php:45 page.php:32 search.php:45 single-ctc_event.php:73
+#: single-ctc_location.php:61 single-ctc_person.php:61 single-ctc_sermon.php:90
+#: single.php:35 taxonomy-ctc_sermon_series.php:47
+#: taxonomy-ctc_sermon_speaker.php:47
+msgid "Nothing found."
+msgstr ""
+
+#: comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:7
+msgid "Theme designed by ThemeBright"
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:11
+msgid "A customizable list of events."
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:15
+#: framework/includes/classes/widget-events.php:21
+msgid "Events"
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:133
+msgid "No events found."
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:182
+#: framework/includes/classes/widget-locations.php:143
+#: framework/includes/classes/widget-people.php:156
+#: framework/includes/classes/widget-sermons.php:142
+msgid "Title:"
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:189
+msgid "Number of events to show:"
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:197
+#: framework/includes/classes/widget-locations.php:151
+#: framework/includes/classes/widget-people.php:193
+#: framework/includes/classes/widget-sermons.php:157
+msgid "Show thumbnail"
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:204
+#: framework/includes/classes/widget-locations.php:158
+#: framework/includes/classes/widget-people.php:200
+#: framework/includes/classes/widget-sermons.php:164
+msgid "Show excerpt"
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:211
+#: framework/includes/classes/widget-sermons.php:171
+msgid "Show date"
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:218
+msgid "Show time"
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:225
+msgid "Show venue"
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:232
+#: framework/includes/classes/widget-locations.php:165
+msgid "Show address"
+msgstr ""
+
+#: framework/includes/classes/widget-events.php:239
+#: framework/includes/classes/widget-locations.php:186
+msgid "Show map"
+msgstr ""
+
+#: framework/includes/classes/widget-locations.php:11
+msgid "A customizable list of locations."
+msgstr ""
+
+#: framework/includes/classes/widget-locations.php:15
+#: framework/includes/classes/widget-locations.php:21
+msgid "Locations"
+msgstr ""
+
+#: framework/includes/classes/widget-locations.php:98
+msgid "No locations found."
+msgstr ""
+
+#: framework/includes/classes/widget-locations.php:172
+#: framework/includes/classes/widget-people.php:214
+msgid "Show phone"
+msgstr ""
+
+#: framework/includes/classes/widget-locations.php:179
+msgid "Show times"
+msgstr ""
+
+#: framework/includes/classes/widget-people.php:11
+msgid "A customizable list of people."
+msgstr ""
+
+#: framework/includes/classes/widget-people.php:15
+#: framework/includes/classes/widget-people.php:21
+msgid "People"
+msgstr ""
+
+#: framework/includes/classes/widget-people.php:107
+msgid "No people found."
+msgstr ""
+
+#: framework/includes/classes/widget-people.php:163
+msgid "Group to show:"
+msgstr ""
+
+#: framework/includes/classes/widget-people.php:165
+msgid "All Groups"
+msgstr ""
+
+#: framework/includes/classes/widget-people.php:185
+msgid "Number of people to show:"
+msgstr ""
+
+#: framework/includes/classes/widget-people.php:207
+msgid "Show position"
+msgstr ""
+
+#: framework/includes/classes/widget-people.php:221
+msgid "Show email"
+msgstr ""
+
+#: framework/includes/classes/widget-people.php:228
+msgid "Show URLs"
+msgstr ""
+
+#: framework/includes/classes/widget-sermons.php:11
+msgid "A customizable list of sermons."
+msgstr ""
+
+#: framework/includes/classes/widget-sermons.php:15
+#: framework/includes/classes/widget-sermons.php:21
+msgid "Sermons"
+msgstr ""
+
+#: framework/includes/classes/widget-sermons.php:80
+msgid "Video"
+msgstr ""
+
+#: framework/includes/classes/widget-sermons.php:84
+msgid "Audio"
+msgstr ""
+
+#: framework/includes/classes/widget-sermons.php:88
+msgid "Transcript"
+msgstr ""
+
+#: framework/includes/classes/widget-sermons.php:99
+msgid "No sermons found."
+msgstr ""
+
+#: framework/includes/classes/widget-sermons.php:149
+msgid "Number of sermons to show:"
+msgstr ""
+
+#: framework/includes/classes/widget-sermons.php:178
+msgid "Show media links"
+msgstr ""
+
+#: includes/admin.php:57
+msgid "Restful recommends the following plugin(s):"
+msgstr ""
+
+#: includes/admin.php:74
+msgid "Show title?"
+msgstr ""
+
+#: includes/admin.php:76
+msgid "Display the title above the slide text."
+msgstr ""
+
+#: includes/customizer.php:20
+msgid "Appearance"
+msgstr ""
+
+#: includes/customizer.php:26
+msgid "Color scheme"
+msgstr ""
+
+#: includes/customizer.php:30
+msgid "Light"
+msgstr ""
+
+#: includes/customizer.php:31
+msgid "Dark"
+msgstr ""
+
+#: includes/customizer.php:37
+msgid "Accent color"
+msgstr ""
+
+#: includes/customizer.php:44
+msgid "Social"
+msgstr ""
+
+#: includes/menus.php:11
+msgid "Main Menu Location"
+msgstr ""
+
+#: includes/sidebars.php:19
+msgid "Main"
+msgstr ""
+
+#: includes/sidebars.php:24
+msgid "Home 1"
+msgstr ""
+
+#: includes/sidebars.php:29
+msgid "Home 2"
+msgstr ""
+
+#: includes/sidebars.php:34
+msgid "Footer 1"
+msgstr ""
+
+#: includes/sidebars.php:39
+msgid "Footer 2"
+msgstr ""
+
+#: includes/sidebars.php:44
+msgid "Footer 3"
+msgstr ""
+
+#: search.php:11
+msgid "Results"
+msgstr ""
+
+#: single-ctc_sermon.php:41
+msgid "PDF Transcript"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Restful"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themebright.com/go/restful/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A clean, restful theme for churches."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeBright"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themebright.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home"
+msgstr ""

@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+.so-widget-sow-headline-sow-headline-c38136aa7218 #sow-headline-container.sow-headline h1 {
+  font-family: Roboto;
+  font-weight: 400;
+  text-align: center;
+  color: #0e1130;
+  line-height: 1.4;
+}
+.so-widget-sow-headline-sow-headline-c38136aa7218 #sow-headline-container.sow-headline h3 {
+  font-family: Roboto;
+  font-weight: 400;
+  text-align: center;
+  color: #3c3c3c;
+  line-height: 1.4;
+}
+.so-widget-sow-headline-sow-headline-c38136aa7218 #sow-headline-container.sow-headline .decoration {
+  border-top: thin none #5c5c5c;
+  position: relative;
+  height: 1px;
+  margin: 20pxpx 60pxpx;
+}

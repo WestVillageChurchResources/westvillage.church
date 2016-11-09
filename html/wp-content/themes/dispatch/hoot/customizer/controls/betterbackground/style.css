@@ -1,0 +1,68 @@
+/**
+ * Hoot Customizer Custom Background Control
+ * ========================================================
+ */
+
+
+/*** Background Control ***/
+
+/* Start */
+
+.hoot-customize-control-betterbackgroundstart.customize-control {}
+.hoot-customize-control-betterbackgroundstart.customize-control:after { display: none; }
+
+/* End */
+
+.hoot-customize-control-betterbackgroundend.customize-control { padding-top: 0; }
+.hoot-customize-control-betterbackgroundend.customize-control:after {}
+
+/* Background Control Units */
+
+li.hoot-customize-control-background-blocks { padding-top: 15px; }
+.hoot-customize-control-background-blocks.customize-control:after { display: none; }
+
+/* Color */
+
+.hoot-customize-control-background-blocks.customize-control-color { padding-top: 0; }
+.hoot-customize-control-background-blocks.customize-control-color:after {}
+.hoot-customize-control-background-blocks .wp-color-result { top: -30px; }
+
+/* Type Button */
+
+.hoot-customize-control-background-blocks.hoot-customize-control-betterbackgroundbutton {}
+.hoot-customize-control-background-blocks.hoot-customize-control-betterbackgroundbutton:after {}
+.hoot-betterbackground-buttons { }
+.hoot-betterbackground-buttons .hoot-betterbackground-button { display: inline-block; width: 50%; text-align: center; }
+.hoot-betterbackground-buttons .selected { background: #fff; border-color: #bbb;
+	-webkit-box-shadow: inset -2px 1px 2px rgba(0,0,0,0.25);
+	        box-shadow: inset -2px 1px 2px rgba(0,0,0,0.25); }
+.hoot-betterbackground-buttons .hoot-betterbackground-button-custom.selected {
+	-webkit-box-shadow: inset 2px 1px 2px rgba(0,0,0,0.25);
+	        box-shadow: inset 2px 1px 2px rgba(0,0,0,0.25); }
+.hoot-betterbackground-buttons .deactive { color: #a0a5aa; border-color: #ddd; background: #eee; text-shadow: 0 1px 0 #fff; }
+.hoot-betterbackground-buttons .hoot-betterbackground-button-predefined { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.hoot-betterbackground-buttons .hoot-betterbackground-button-custom { position: relative; left: -1px; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+
+/* Custom Image */
+
+.hoot-customize-control-background-blocks.customize-control-image {}
+.hoot-customize-control-background-blocks.customize-control-image:after {}
+
+/* Selects */
+
+.hoot-customize-control-background-blocks.customize-control-select { width: 33%; float: left; clear: none; }
+.hoot-customize-control-background-blocks.customize-control-select:after {}
+
+/* Pattern */
+
+.hoot-customize-control-background-blocks.customize-control-groupstart {}
+.hoot-customize-control-background-blocks.customize-control-groupstart:after {}
+
+.hoot-betterbackground-button-pattern { display: block; float: left; width: 28px; height: 26px; overflow: hidden; position: relative; left: -10px; max-width: 150%;
+	-webkit-box-shadow: 2px 0px 2px rgba(0,0,0,0.2);
+	        box-shadow: 2px 0px 2px rgba(0,0,0,0.2); }
+#customize-controls .hoot-betterbackground-button-pattern img { max-width: inherit; }
+
+.hoot-customize-control-background-blocks.customize-control-radioimage {}
+.hoot-customize-control-background-blocks.customize-control-radioimage:after {}
+.hoot-customize-control-background-blocks.customize-control-radioimage img { max-width: 68px; }

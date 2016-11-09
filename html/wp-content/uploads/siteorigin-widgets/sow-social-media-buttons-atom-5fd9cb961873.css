@@ -1,0 +1,30 @@
+.so-widget-sow-social-media-buttons-atom-5fd9cb961873 .social-media-button-container {
+  zoom: 1;
+  text-align: left;
+}
+.so-widget-sow-social-media-buttons-atom-5fd9cb961873 .social-media-button-container:before {
+  content: '';
+  display: block;
+}
+.so-widget-sow-social-media-buttons-atom-5fd9cb961873 .social-media-button-container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.so-widget-sow-social-media-buttons-atom-5fd9cb961873 .sow-social-media-button {
+  font-size: em;
+  padding: 1em 1em;
+  margin: 0.1em 0.1em 0.1em 0;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1em;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  border-radius: 0.25em;
+}
+.so-widget-sow-social-media-buttons-atom-5fd9cb961873 .sow-social-media-button .sow-icon-fontawesome {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+}

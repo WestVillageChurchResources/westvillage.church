@@ -1,0 +1,14 @@
+/**
+ * Hoot Customizer Custom Radioimage Control
+ * ========================================================
+ */
+
+
+/*** Radioimage Control ***/
+
+.hoot-customize-radioimage { display: block; float: left; border: 3px solid #ddd; margin: 0 5px 5px 0; cursor: pointer; position: relative; padding: 2px; }
+.hoot-customize-radioimage.radiocheck { border: 3px solid #64bd1f; }
+.hoot-customize-radioimage.radiocheck:before { content: "\f147"; font-family: dashicons; background-color: #64bd1f; position: absolute; right: 0; bottom: 0; border-top-left-radius: 2px; color: #fff; line-height: normal; font-size: 20px; padding: 1px 0 0 1px; }
+.hoot-customize-radioimage input { display: none; }
+.hoot-customize-radioimage img { display: inline-block;
+    vertical-align: middle; }

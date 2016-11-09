@@ -1,0 +1,26 @@
+//
+// SECTION
+//
+
+
+.section {
+  padding: 30px 0;
+
+  & + & {
+    border-top: solid 1px @co-border;
+  }
+}
+
+.section--extra-padding {
+  padding: 60px 0;
+}
+
+@media @mq-md-min {
+  .section {
+    padding: 60px 0;
+  }
+
+  .section--extra-padding {
+    padding: 120px 0;
+  }
+}

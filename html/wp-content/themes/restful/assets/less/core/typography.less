@@ -1,0 +1,143 @@
+//
+// TYPOGRAPHY
+//
+
+
+// BASE
+
+body {
+  color: @co-text;
+  font: 16px/1.5 @ff-sans;
+  text-size-adjust: none;
+}
+
+
+// INLINE ELEMENTS
+
+a {
+  transition: @tr-short;
+  color: @co-accent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+strong {
+  font-weight: @fw-bold;
+  color: @co-text-strong;
+}
+
+em {
+  font-style: italic;
+}
+
+code,
+var,
+kbd,
+tt {
+  font: 14px @ff-monospace;
+  background: @co-border;
+  padding: 1px 3px 2px;
+  border-radius: 2px;
+}
+
+abbr,
+acronym {
+  border-bottom: dotted 1px @co-text-subtle;
+}
+
+
+// BLOCK-LEVEL ELEMENTS
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: @ff-sans-condensed;
+  line-height: 1.25;
+  font-weight: 300;
+  color: @co-text-strong;
+
+  a {
+    color: inherit;
+  }
+}
+
+h1, .h1 {
+  font-size: 48px;
+
+  @media @mq-sm-max {
+    font-size: 30px;
+  }
+}
+
+h2, .h2 {
+  font-size: 30px;
+
+  @media @mq-sm-max {
+    font-size: 24px;
+  }
+}
+
+h3, .h3 {
+  font-size: 24px;
+
+  @media @mq-sm-max {
+    font-size: 20px;
+  }
+}
+
+h4, .h4 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 16px;
+}
+
+h5, .h5 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;
+}
+
+h6, .h6 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 12px;
+}
+
+blockquote {
+  font-family: @ff-serif;
+  color: @co-text-subtle;
+
+  cite {
+    margin-top: 1em;
+    display: block;
+  }
+}
+
+pre {
+  font-family: @ff-monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  tab-size: 4;
+}
+
+address {
+  font-style: italic;
+}
+
+dt {
+  color: @co-text-strong;
+}
+
+
+// MISC
+
+hr {
+  border: solid @co-border;
+  border-width: 1px 0 0;
+}

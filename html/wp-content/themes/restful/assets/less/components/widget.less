@@ -1,0 +1,72 @@
+//
+// WIDGET
+//
+
+
+.widget {
+  font-size: 14px;
+
+  a {
+    color: @co-text-strong;
+  }
+
+  & + & {
+    margin-top: 30px;
+  }
+}
+
+.widget__title {
+  margin-bottom: 30px;
+  color: @co-text;
+}
+
+
+// WIDGET - SEARCH
+
+.widget_search {
+  padding: 0;
+  border: none;
+
+  .search-submit {
+    display: none;
+  }
+}
+
+
+// WIDGET - TEXT
+
+.widget_text .textwidget {
+  .rich-text( .75em );
+}
+
+
+// WIDGET - RSS
+
+.widget_rss li + li {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: solid 1px @co-border;
+}
+
+
+// WIDGET - CALENDAR
+
+.widget_calendar {
+  table {
+    text-align: center;
+  }
+
+  thead tr,
+  tr:nth-child( even ) {
+    background: @co-border;
+  }
+
+  th,
+  td {
+    padding: .25em .5em;
+  }
+
+  caption {
+    margin-bottom: .5em;
+  }
+}

@@ -1,0 +1,42 @@
+/**
+ * Hoot Customizer Custom Group Control
+ * ========================================================
+ */
+
+/*** Group Control ***/
+
+.hoot-customize-control-groupstart.customize-control .hoot-flypanel-button { position: relative; padding-right: 25px; }
+.hoot-customize-control-groupstart .hoot-flypanel-button:after { content: "\f132"; display: inline-block; position: absolute; top: 7px; right: 5px; z-index: 1; font: 400 14px/1 dashicons; vertical-align: middle; -webkit-transition: all .2s; transition: all .2s; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.hoot-customize-control-groupend { display: none !important; }
+@media screen and (max-width: 640px) {
+	.customize-control.hoot-customize-control-groupstart .hoot-flypanel-button { padding-right: 25px; }
+	.hoot-customize-control-groupstart .hoot-flypanel-button:after { top: 10px; }
+}
+/* Displaying Group Fly */
+.hoot-customize-control-groupstart.flygroup-open .hoot-flypanel-button { border-color: #999; color: #32373c; /*background: #eee;*/ background: #e5e5e5;
+	/*-webkit-box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5);
+	        box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 0 1px #5b9dd9,0 0 2px 1px rgba(30,140,190,.8);
+            box-shadow: 0 0 0 1px #5b9dd9,0 0 2px 1px rgba(30,140,190,.8);*/
+	-webkit-box-shadow: inset 2px 2px 6px -3px rgba(0,0,0,.6);
+	        box-shadow: inset 2px 2px 6px -3px rgba(0,0,0,.6); }
+.hoot-customize-control-groupstart.flygroup-open .hoot-flypanel-button:after { -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+
+
+/*** Group Options ***/
+
+#customize-controls .hoot-customize-control-group-blocks { display: none !important; }
+/* Group Fly */
+#hoot-flygroup-content > ul { margin: 0; }
+#hoot-flygroup-content .hoot-customize-control-group-blocks { display: list-item !important; }
+
+
+/*** Displaying Group Fly ***/
+/* @includes Customizer Layout Mods */
+
+body.hoot-displaying-flygroup #hoot-flygroup { left: 0; width: 300px; z-index: 11; }
+body.hoot-displaying-flygroup #customize-preview { opacity: .4; left: 300px; }
+body.hoot-displaying-flygroup #customize-controls {}
+@media screen and (max-width: 640px) {
+	body.hoot-displaying-flygroup #hoot-flygroup { left: 0; width: 100%; position: fixed; z-index: 10; }
+}

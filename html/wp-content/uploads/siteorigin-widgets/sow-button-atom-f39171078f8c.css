@@ -1,0 +1,39 @@
+.so-widget-sow-button-atom-f39171078f8c .ow-button-base a {
+  font-size: 1em;
+  padding: 1em 2em;
+  background: #ef4036;
+  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#e01d12),color-stop(1,#ef4036));
+  background: -ms-linear-gradient(bottom,#e01d12,#ef4036);
+  background: -moz-linear-gradient(center bottom,#e01d12 0%,#ef4036 100%);
+  background: -o-linear-gradient(#ef4036,#e01d12);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef4036', endColorstr='#e01d12', GradientType=0);
+  border: 1px solid;
+  border-color: #d21b11 #c91a10 #ba180f #c91a10;
+  color: #ffffff !important;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  border-radius: 0.25em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.065);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.065);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.065);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+.so-widget-sow-button-atom-f39171078f8c .ow-button-base a .sow-icon-image,
+.so-widget-sow-button-atom-f39171078f8c .ow-button-base a [class^="sow-icon-"] {
+  margin: -0.1em 0.75em -0.2em -0.75em;
+}
+.so-widget-sow-button-atom-f39171078f8c .ow-button-base a:visited,
+.so-widget-sow-button-atom-f39171078f8c .ow-button-base a:active,
+.so-widget-sow-button-atom-f39171078f8c .ow-button-base a:hover {
+  color: #ffffff !important;
+}
+.so-widget-sow-button-atom-f39171078f8c .ow-button-base a.ow-button-hover:hover {
+  background: #f0493f;
+  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#ea1e13),color-stop(1,#f0493f));
+  background: -ms-linear-gradient(bottom,#ea1e13,#f0493f);
+  background: -moz-linear-gradient(center bottom,#ea1e13 0%,#f0493f 100%);
+  background: -o-linear-gradient(#f0493f,#ea1e13);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0493f', endColorstr='#ea1e13', GradientType=0);
+  border-color: #db1c11 #d21b11 #c41910 #d21b11;
+  color: #ffffff;
+}

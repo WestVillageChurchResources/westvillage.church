@@ -1,0 +1,95 @@
+//
+// FORMS
+//
+
+
+// RESET
+//
+// Because for some reason Eric Meyer's reset.css doesn't reset form elements.
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  font: 14px @ff-sans;
+  color: @co-text;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+
+// BUTTONS
+
+.button,
+button,
+input[type="button"],
+input[type="submit"] {
+  .appearance( none );
+  padding: 1em 2em;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  background: @co-accent;
+  color: @co-background;
+  text-decoration: none !important;
+  text-align: center;
+  transition: @tr-short;
+  user-select: none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .9;
+  }
+}
+
+
+// TEXT INPUTS
+
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+textarea {
+  .full-width;
+  .appearance( none );
+  padding: .75em;
+  background: @co-background;
+  border: solid 1px @co-border;
+  border-radius: 0;
+  transition: @tr-short;
+
+  &:focus {
+    border-color: @co-border-strong;
+  }
+
+  &::placeholder,
+  &.placeholder {
+    color: @co-text-subtle;
+  }
+}
+
+// Remove Webkit search decoration
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+// SELECTS
+
+select {
+  .full-width;
+}

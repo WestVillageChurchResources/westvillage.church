@@ -1,0 +1,28 @@
+//
+// PAGINATION
+//
+
+
+.pagination {
+  margin-top: 30px;
+  .h5;
+
+  .page-numbers {
+    display: inline-block;
+    padding: .5em 1em;
+    border: solid 1px @co-border;
+
+    &:hover {
+      text-decoration: none;
+      background: @co-border;
+    }
+  }
+
+  > span.page-numbers {
+    background: @co-border;
+  }
+}
+
+.entry + .pagination {
+  margin-top: 90px;
+}

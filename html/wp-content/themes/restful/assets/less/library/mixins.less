@@ -1,0 +1,33 @@
+//
+// MIXINS
+//
+
+
+.appearance( @value ) {
+  -webkit-appearance: @value;
+  -moz-appearance: @value;
+  appearance: @value;
+}
+
+.cf {
+  &:after {
+    display: table;
+    clear: both;
+    content: '';
+  }
+}
+
+.inline-top {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.full-width {
+  display: block;
+  width: 100%;
+}

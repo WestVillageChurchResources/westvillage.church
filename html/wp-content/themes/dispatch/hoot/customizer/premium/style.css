@@ -1,0 +1,67 @@
+/**
+ * Hoot Customizer
+ * ========================================================
+ */
+
+
+/*** Premium Section ***/
+
+#accordion-panel-premium { position: absolute; width: 100%; }
+#hoot-premium-section-title { color: #555; background-color: #fff; font-size: 14px; padding: 10px 10px 11px 14px; line-height: 21px; margin: 0; position: relative; cursor: pointer; outline: none; }
+#customize-theme-controls #hoot-premium-section-title:after { content: "\f132"; display: inline-block; font-size: 20px; top: 13px; background: none; border: none; }
+#customize-theme-controls #hoot-premium-section-title:hover:after { font-size: 20px; }
+/* Displaying Group Fly */
+body.hoot-displaying-flypremium #hoot-premium-section-title:after { -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+/* In Sub Panel */
+.in-sub-panel #accordion-panel-premium,
+.in-themes-panel #accordion-panel-premium { width: 300px; left: -300px; }
+
+
+/*** Premium Fly ***/
+
+#hoot-flypremium { }
+#hoot-flypremium .hoot-flypanel-footer .primary-actions { text-align: center; }
+#hoot-flypremium .button.button-primary { margin-top: 9px; padding: 0 25px 1px; text-transform: uppercase; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); line-height: 26px; vertical-align: baseline; }
+#hoot-flypremium .hoot-flypanel-header .button-primary { float: right; }
+#hoot-flypremium .button.button-primary .fa { margin-right: 5px; }
+#hoot-flypremium-content {}
+
+
+/*** Displaying Premium Fly ***/
+/* @includes Customizer Layout Mods */
+
+body.hoot-displaying-flypremium #hoot-flypremium { left: -350px; width: 600px; z-index: 11; }
+body.hoot-displaying-flypremium #customize-preview { opacity: .4; left: 250px; }
+body.hoot-displaying-flypremium #customize-controls { left: -350px; width: 350px; }
+/* Stretched */
+body.hoot-displaying-flypremium .stretched #hoot-flypremium { left: -450px; }
+body.hoot-displaying-flypremium .stretched #customize-preview { left: 150px; }
+body.hoot-displaying-flypremium .stretched #customize-controls { }
+/*Responsive*/
+@media screen and (max-width: 640px) {
+	body.hoot-displaying-flypremium #hoot-flypremium,
+	body.hoot-displaying-flypremium .stretched #hoot-flypremium { left: 0; width: 100%; position: fixed; z-index: 10; }
+}
+
+
+/*** Premium Panel Icon Nav ***/
+
+#hoot-inav-premium .fa,
+.hoot-bcomp #hoot-inav-premium span { color: #2a8cbb; }
+
+
+/*** Premium Info ***/
+
+.section-premium-info { border-bottom: solid 1px #ddd; padding-bottom: 30px; }
+.section-premium-info:last-child { border-bottom: none; padding-bottom: 0; padding-top: 10px; }
+.section-premium-info h4 { font-size: 1.7em; line-height: 1em; margin: 1.33em 0 1em; font-weight: normal; text-transform: uppercase; }
+.premium-info {}
+.premium-info-text { float: left; width: 54%; padding-right: 2%; }
+.premium-info-text hr { border: transparent; margin: 8px 0; }
+.premium-info-img { max-width: 43%; float: left; padding-top: 30px; }
+.premium-info-img img { max-width: 100%; height: auto; }
+#hoot-flypremium .section-premium-info .button-buy-premium.button { margin: 20px auto 15px; display: block; width: 300px; text-align: center; font-size: 1.5em; line-height: 2em; height: 2.1em; text-transform: uppercase; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); font-weight: bold; padding: 0 14px; }
+.section-premium-info .note-buy-premium { text-align: center; font-style: italic; margin: 5px 0 15px; font-weight: bold; color: #289; }
+@media only screen and (max-width: 782px) {
+	.premium-info-img { text-align: center; }
+}

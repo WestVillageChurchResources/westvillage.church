@@ -1,0 +1,40 @@
+/**
+ * Hoot Customizer Custom Sortlist Control
+ * ========================================================
+ */
+
+/*** Sortlist Control ***/
+
+.customize-control-sortlist {}
+ul.hoot-control-sortlist {}
+li.hoot-control-sortlistitem { background: #fafafa; border: 1px solid #ddd; position: relative; line-height: 40px; margin: 5px 0 0; }
+li.hoot-control-sortlistitem:first-of-type { margin-top: 0; }
+
+.hoot-sortlistitem-head { display: block; background: #f1f1f1; border-bottom: 1px solid #ddd; cursor: pointer; position: relative; }
+.hoot-sortlistitem-head:after { clear: both; }
+.hoot-sortlistitem-head i { float: right; border-right: 1px solid #ddd; width: 40px; text-align: center; display: block; line-height: 40px; color: #777; position: relative; background: #f1f1f1; }
+.hoot-sortlistitem-head .sortlistitem-sort { float: left; cursor: move; }
+.hoot-sortlistitem-head .sortlistitem-label { position: absolute; top: 0; left: 50px; height: 40px; overflow: hidden; max-width: 110px; white-space: nowrap; text-overflow: ellipsis; }
+.hoot-sortlistitem-head .sortlistitem-expand { border-left: 1px solid #ddd; }
+.hoot-sortlistitem-head .sortlistitem-display { border-right: none; z-index: 1; }
+
+.hoot-control-sortlistitem-placeholder { border: 1px dashed #d5d5d5; background: #f7f7f7; margin-top: 5px; }
+
+.sortlistitem-display span { display: none; background-color: #444; background-color: rgba(80,80,80,0.6); color: #fff; border-radius: 3px; position: absolute; top: -12px; right: -7px; padding: 3px 7px; font-family: 'Open Sans', sans-serif; font-size: 12px; line-height: 1.4em; }
+.sortlistitem-display:hover span { display: block; }
+
+.hoot-sortlistitem-head .sortlistitem-expand.options-open:before { content: "\f0d8"; }
+li.deactivated .sortlistitem-display:before { content: "\f070"; }
+li.deactivated,
+li.deactivated .hoot-sortlistitem-head,
+li.deactivated .hoot-sortlistitem-head i { background: #e5e5e5; color: #bbb; }
+li.deactivated .hoot-sortlistitem-head .sortlistitem-display { background: #f1f1f1; color: #777; }
+
+.hoot-sortlistitem-options { display: block; clear: both; padding: 5px 0; border-top: solid 1px #ddd; }
+.hoot-sortlistitem-option { display: block; padding: 5px 10px; line-height: 1.4em; }
+.hoot-sortlistitem-option-title {}
+.hoot-sortlistitem-option-text {}
+.hoot-sortlistitem-option-textarea {}
+.hoot-sortlistitem-option-checkbox {}
+.hoot-sortlistitem-option-checkbox input { float: right; position: relative; top: 5px; }
+.hoot-sortlistitem-option-select {}
